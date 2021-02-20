@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="locomotive/locomotive-scroll.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div data-scroll-container>
+
+        <section class="section-1" data-scroll-section>
+            <h1>Hi! I'm a title :)</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere recusandae molestias fugiat a exercitationem, nam eaque tempora eveniet eos illum debitis iste ut rem tenetur animi sit at, error dolore.</p>
+        </section>
+
+        <section class="section-2" data-scroll-section>
+            <h1>Hi! I'm a title :)</h1>
+            <p  class="custom-p" 
+                data-scroll data-scroll-speed="2" 
+                data-scroll-class="scroll-class" 
+                data-scroll-repeat="true">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere recusandae molestias fugiat a exercitationem, nam eaque tempora eveniet eos illum debitis iste ut rem tenetur animi sit at, error dolore.</p>
+        </section>
+    </div>
+
+    <script type="module" src="main.js"></script>
+</body>
+
+</html>

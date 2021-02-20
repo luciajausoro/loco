@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+    height: 100vh;
+}
+
+section {
+    padding: 10em;
+    height: 100vh;
+    color: white;
+}
+
+section:first-of-type {
+    background: rgb(0, 126, 243);
+}
+
+section:last-of-type {
+    background: rgb(31, 37, 43);
+}
+
+h1 {
+    font-size: 3em;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+.custom-p {
+    opacity: 0;
+    transition: opacity 2s;
+}
+
+.scroll-class {
+    opacity: 1;
+}
